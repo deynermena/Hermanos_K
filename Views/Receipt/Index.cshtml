@@ -1,0 +1,28 @@
+﻿
+<h1>Recibos</h1>
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Cantidad</th>
+            <th>Fecha</th>
+            <th>Comentarios</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@Html.Display("Cantidad")</td>
+                <td>@Html.Display("Fecha")</td>
+                <td>@Html.Display("Comentarios")</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.ID">Details</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

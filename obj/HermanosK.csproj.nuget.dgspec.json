@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DISEÑO DE SISTEMAS DE INFORMACION\\Proyecto Hermanos_K\\HermanosK.csproj": {}
+    "C:\\Users\\Deyne\\source\\repos\\deynermena\\Hermanos_K\\HermanosK.csproj": {}
   },
   "projects": {
-    "C:\\DISEÑO DE SISTEMAS DE INFORMACION\\Proyecto Hermanos_K\\HermanosK.csproj": {
+    "C:\\Users\\Deyne\\source\\repos\\deynermena\\Hermanos_K\\HermanosK.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DISEÑO DE SISTEMAS DE INFORMACION\\Proyecto Hermanos_K\\HermanosK.csproj",
+        "projectUniqueName": "C:\\Users\\Deyne\\source\\repos\\deynermena\\Hermanos_K\\HermanosK.csproj",
         "projectName": "HermanosK",
-        "projectPath": "C:\\DISEÑO DE SISTEMAS DE INFORMACION\\Proyecto Hermanos_K\\HermanosK.csproj",
-        "packagesPath": "C:\\Users\\EQUIPO\\.nuget\\packages\\",
-        "outputPath": "C:\\DISEÑO DE SISTEMAS DE INFORMACION\\Proyecto Hermanos_K\\obj\\",
+        "projectPath": "C:\\Users\\Deyne\\source\\repos\\deynermena\\Hermanos_K\\HermanosK.csproj",
+        "packagesPath": "C:\\Users\\Deyne\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Deyne\\source\\repos\\deynermena\\Hermanos_K\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\EQUIPO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Deyne\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -56,13 +56,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[9.0.0, )"
             }
           },
           "imports": [
