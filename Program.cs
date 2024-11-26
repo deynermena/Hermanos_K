@@ -20,8 +20,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+// Configuración de la ruta inicial predeterminada
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
+    pattern: "{controller=Comentarios}/{action=Index}/{id?}");
 
 app.Run();

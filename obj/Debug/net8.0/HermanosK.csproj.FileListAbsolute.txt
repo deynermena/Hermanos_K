@@ -28,3 +28,38 @@ C:\Users\JUAN CARLOS SALAS\Downloads\C# MVC\HermanosK\obj\Debug\net8.0\refint\He
 C:\Users\JUAN CARLOS SALAS\Downloads\C# MVC\HermanosK\obj\Debug\net8.0\HermanosK.pdb
 C:\Users\JUAN CARLOS SALAS\Downloads\C# MVC\HermanosK\obj\Debug\net8.0\HermanosK.genruntimeconfig.cache
 C:\Users\JUAN CARLOS SALAS\Downloads\C# MVC\HermanosK\obj\Debug\net8.0\ref\HermanosK.dll
+C:\proyect\proyecto informacion\bin\Debug\net8.0\appsettings.Development.json
+C:\proyect\proyecto informacion\bin\Debug\net8.0\appsettings.json
+C:\proyect\proyecto informacion\bin\Debug\net8.0\HermanosK.staticwebassets.runtime.json
+C:\proyect\proyecto informacion\bin\Debug\net8.0\HermanosK.staticwebassets.endpoints.json
+C:\proyect\proyecto informacion\bin\Debug\net8.0\HermanosK.exe
+C:\proyect\proyecto informacion\bin\Debug\net8.0\HermanosK.deps.json
+C:\proyect\proyecto informacion\bin\Debug\net8.0\HermanosK.runtimeconfig.json
+C:\proyect\proyecto informacion\bin\Debug\net8.0\HermanosK.dll
+C:\proyect\proyecto informacion\bin\Debug\net8.0\HermanosK.pdb
+C:\proyect\proyecto informacion\obj\Debug\net8.0\HermanosK.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyect\proyecto informacion\obj\Debug\net8.0\HermanosK.AssemblyInfoInputs.cache
+C:\proyect\proyecto informacion\obj\Debug\net8.0\HermanosK.AssemblyInfo.cs
+C:\proyect\proyecto informacion\obj\Debug\net8.0\HermanosK.csproj.CoreCompileInputs.cache
+C:\proyect\proyecto informacion\obj\Debug\net8.0\HermanosK.MvcApplicationPartsAssemblyInfo.cache
+C:\proyect\proyecto informacion\obj\Debug\net8.0\HermanosK.RazorAssemblyInfo.cache
+C:\proyect\proyecto informacion\obj\Debug\net8.0\HermanosK.RazorAssemblyInfo.cs
+C:\proyect\proyecto informacion\obj\Debug\net8.0\HermanosK.sourcelink.json
+C:\proyect\proyecto informacion\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\proyect\proyecto informacion\obj\Debug\net8.0\scopedcss\bundle\HermanosK.styles.css
+C:\proyect\proyecto informacion\obj\Debug\net8.0\scopedcss\projectbundle\HermanosK.bundle.scp.css
+C:\proyect\proyecto informacion\obj\Debug\net8.0\staticwebassets.build.json
+C:\proyect\proyecto informacion\obj\Debug\net8.0\staticwebassets.development.json
+C:\proyect\proyecto informacion\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\proyect\proyecto informacion\obj\Debug\net8.0\staticwebassets\msbuild.HermanosK.Microsoft.AspNetCore.StaticWebAssets.props
+C:\proyect\proyecto informacion\obj\Debug\net8.0\staticwebassets\msbuild.HermanosK.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\proyect\proyecto informacion\obj\Debug\net8.0\staticwebassets\msbuild.build.HermanosK.props
+C:\proyect\proyecto informacion\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.HermanosK.props
+C:\proyect\proyecto informacion\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.HermanosK.props
+C:\proyect\proyecto informacion\obj\Debug\net8.0\staticwebassets.pack.json
+C:\proyect\proyecto informacion\obj\Debug\net8.0\HermanosK.dll
+C:\proyect\proyecto informacion\obj\Debug\net8.0\refint\HermanosK.dll
+C:\proyect\proyecto informacion\obj\Debug\net8.0\HermanosK.pdb
+C:\proyect\proyecto informacion\obj\Debug\net8.0\HermanosK.genruntimeconfig.cache
+C:\proyect\proyecto informacion\obj\Debug\net8.0\ref\HermanosK.dll
+C:\proyect\proyecto informacion\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

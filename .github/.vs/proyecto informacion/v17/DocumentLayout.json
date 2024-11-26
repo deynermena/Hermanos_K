@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\proyect\\proyecto informacion\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDB70FB-9470-4C05-8346-954579367EAC}|HermanosK.csproj|c:\\proyect\\proyecto informacion\\controllers\\comentarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DDB70FB-9470-4C05-8346-954579367EAC}|HermanosK.csproj|solutionrelative:controllers\\comentarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DDB70FB-9470-4C05-8346-954579367EAC}|HermanosK.csproj|c:\\proyect\\proyecto informacion\\views\\comentarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4DDB70FB-9470-4C05-8346-954579367EAC}|HermanosK.csproj|solutionrelative:views\\comentarios\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ComentariosController.cs",
+              "DocumentMoniker": "C:\\proyect\\proyecto informacion\\Controllers\\ComentariosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ComentariosController.cs",
+              "ToolTip": "C:\\proyect\\proyecto informacion\\Controllers\\ComentariosController.cs",
+              "RelativeToolTip": "Controllers\\ComentariosController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T02:02:55.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "delete.cshtml",
+              "DocumentMoniker": "C:\\proyect\\proyecto informacion\\Views\\Comentarios\\delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comentarios\\delete.cshtml",
+              "ToolTip": "C:\\proyect\\proyecto informacion\\Views\\Comentarios\\delete.cshtml",
+              "RelativeToolTip": "Views\\Comentarios\\delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-26T02:02:51.993Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

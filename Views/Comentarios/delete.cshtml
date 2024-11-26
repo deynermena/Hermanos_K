@@ -1,0 +1,14 @@
+﻿@model HermanosK.Models.Comentario
+
+<h1>Eliminar Comentario</h1>
+
+<p>¿Estás seguro de que deseas eliminar el siguiente comentario?</p>
+
+<p><strong>Autor:</strong> @Model.Autor</p>
+<p><strong>Texto:</strong> @Model.Texto</p>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input asp-for="Id" type="hidden" />
+    <button type="submit" class="btn btn-danger">Eliminar</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancelar</a>
+</form>

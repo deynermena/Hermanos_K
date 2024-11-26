@@ -1,0 +1,36 @@
+﻿@model List<HermanosK.Models.Comentario>
+
+<h1>Comentarios</h1>
+<a asp-action="Create" class="btn btn-primary">Crear nuevo comentario</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Autor</th>
+            <th>Texto</th>
+            <th>Estrellas</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var comentario in Model)
+        {
+            <tr>
+                <td>@comentario.Id</td>
+                <td>@comentario.Autor</td>
+                <td>@comentario.Texto</td>
+                <td>
+                    @for (int i = 0; i < comentario.Estrellas; i++)
+                    {
+                        <i class="bi bi-star-fill text-warning"></i>
+                    }
+                </td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@comentario.Id">Detalles</a> |
+                    <a asp-action="Edit" asp-route-id="@comentario.Id">Editar</a> |
+                    <a asp-action="Delete" asp-route-id="@comentario.Id">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
