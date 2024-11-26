@@ -1,15 +1,47 @@
-@model HomeViewModel
+@model HermanosK.Models.ViewModels.HomeViewModel
 
 <div class="hero-section">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 hero-content">
                 <h1 class="hero-title">Hermanos K</h1>
-                <p class="hero-subtitle">Agencia de viajes maritimos</p>
-                <a href="/reservar" class="btn btn-primary btn-lg">Iniciar Sesión</a>
+                <p class="hero-subtitle lh-1">Agencia de viajes maritimos</p>
+                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#loginModal">
+                    Iniciar Sesión
+                </button>
             </div>
             <div class="col-lg-6">
-                <img src="~/images/logo.jpg" alt="Hermanos K Logo" class="img-fluid" style="max-width: 400px;" />
+                <div class="hero-image-container">
+                    <img src="~/images/logo.jpg" alt="Hermanos K Logo" class="img-fluid rounded-circle" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Inicio de Sesión -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModalLabel">Seleccione tipo de usuario</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="login-buttons">
+                    <button class="login-btn cliente-btn" onclick="location.href='@Url.Action("Login", "Account", new { type = "cliente" })'">
+                        <span class="icon"><i class="fas fa-user"></i></span>
+                        <span class="text">Cliente</span>
+                    </button>
+                    <button class="login-btn admin-btn" onclick="location.href='@Url.Action("Login", "Account", new { type = "administrador" })'">
+                        <span class="icon"><i class="fas fa-user-shield"></i></span>
+                        <span class="text">Administrador</span>
+                    </button>
+                    <button class="login-btn empleado-btn" onclick="location.href='@Url.Action("Login", "Account", new { type = "empleado" })'">
+                        <span class="icon"><i class="fas fa-user-tie"></i></span>
+                        <span class="text">Empleado</span>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
@@ -17,7 +49,10 @@
 
 <section class="features-section py-5">
     <div class="container">
-        <h2 class="text-center mb-5">¿Por qué elegirnos?</h2>
+        <h2 class="text-center lh-1"><strong>Ten un momento mágico por </strong> </h2>
+        <h2 class="text-center lh-1"><strong>nuestros mares del pacifico</strong> </h2>
+        <h2 class="text-center lh-1"><strong>colombiano</strong> </h2>
+        <p class="text-center fw-light">Quienes son los hermanos K?</p>
         <div class="row">
             @foreach (var feature in Model.Features)
             {
@@ -26,7 +61,7 @@
                         <div class="feature-icon mx-auto">
                             <i class="fas @feature.IconClass"></i>
                         </div>
-                        <h3>@feature.Title</h3>
+                        <h3><strong>@feature.Title</strong></h3>
                         <p>@feature.Description</p>
                     </div>
                 </div>
@@ -37,17 +72,17 @@
 
 <section class="services-section">
     <div class="container">
-        <h2 class="text-center mb-5">Nuestros Destinos</h2>
+        <h2 class="text-center lh-1"><strong>Nuestros Destinos</strong></h2>
+        <p class="text-center fw-light">contamos con experiencias y lugares para conectarte con el mar y lo hermoso que nos brinda nuestro pacifico colombiano.</p>
         <div class="row">
             @foreach (var service in Model.Services)
             {
                 <div class="col-md-4">
                     <div class="service-card">
                         <img src="@service.ImageUrl" class="card-img-top" alt="@service.Name">
-                        <div class="service-content">
+                        <div class="service-content text-center">
                             <h3 class="service-title">@service.Name</h3>
-                            <p>@service.Description</p>
-                            <a href="#" class="btn btn-primary">Explorar</a>
+                            <p class="mb-0">@service.Description</p>
                         </div>
                     </div>
                 </div>

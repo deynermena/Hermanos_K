@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QOAwkElnlECFtK4XXQs8hNeUbfJRQK1tauFEX2KCVHs=",
+  "Hash": "p/hRqRtcFZCxL5P4s/OZH5zCgc/GqgN+djlJaCO62LA=",
   "Source": "HermanosK",
   "BasePath": "_content/HermanosK",
   "Mode": "Default",
@@ -110,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\guachalito.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\JUAN CARLOS SALAS\\Downloads\\C# MVC\\HermanosK\\wwwroot\\images\\Logo-2.PNG",
+      "SourceId": "HermanosK",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\JUAN CARLOS SALAS\\Downloads\\C# MVC\\HermanosK\\wwwroot\\",
+      "BasePath": "_content/HermanosK",
+      "RelativePath": "images/Logo-2.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Logo-2.PNG"
     },
     {
       "Identity": "C:\\Users\\JUAN CARLOS SALAS\\Downloads\\C# MVC\\HermanosK\\wwwroot\\images\\logo.jpg",

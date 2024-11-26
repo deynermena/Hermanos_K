@@ -1,5 +1,11 @@
-public class HomeViewModel
+using System.Collections.Generic;
+using HermanosK.Models;
+
+namespace HermanosK.Models.ViewModels
 {
-    public IEnumerable<Feature> Features { get; set; }
-    public IEnumerable<Service> Services { get; set; }
+    public class HomeViewModel
+    {
+        public IEnumerable<Feature> Features { get; set; }
+        public IEnumerable<Service> Services { get; set; }
+    }
 }

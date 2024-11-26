@@ -1,0 +1,78 @@
+@{
+    ViewData["Title"] = "Panel de Cliente";
+}
+
+<div class="dashboard-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h2>Bienvenido, @ViewData["FullName"]</h2>
+                <p>Gestiona tus viajes y reservas desde aquí</p>
+            </div>
+            <div class="col-md-4">
+                <div class="dashboard-stats">
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="stat-number">3</div>
+                            <div class="stat-label">Reservas Activas</div>
+                        </div>
+                        <div class="col-6">
+                            <div class="stat-number">12</div>
+                            <div class="stat-label">Viajes Realizados</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="dashboard-card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <i class="fas fa-ticket-alt me-2"></i>
+                        Mis Reservas
+                    </h5>
+                    <p class="card-text">Gestiona tus reservas activas y revisa el historial de viajes.</p>
+                    <a href="#" class="btn btn-primary">
+                        <i class="fas fa-list me-2"></i>
+                        Ver Reservas
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="dashboard-card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <i class="fas fa-ship me-2"></i>
+                        Nuevo Viaje
+                    </h5>
+                    <p class="card-text">Explora destinos y reserva tu próxima aventura marítima.</p>
+                    <a href="#" class="btn btn-success">
+                        <i class="fas fa-plus me-2"></i>
+                        Reservar Ahora
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="dashboard-card">
+                <div class="card-body">
+                    <h5 class="card-title">
+                        <i class="fas fa-user me-2"></i>
+                        Mi Perfil
+                    </h5>
+                    <p class="card-text">Actualiza tu información personal y preferencias.</p>
+                    <a href="#" class="btn btn-info">
+                        <i class="fas fa-edit me-2"></i>
+                        Editar Perfil
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

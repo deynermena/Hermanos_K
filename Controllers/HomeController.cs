@@ -1,82 +1,50 @@
+using System.Collections.Generic;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
 using HermanosK.Models;
+using HermanosK.Models.ViewModels;
+using HermanosK.Services;
+using System.Threading.Tasks;
 
-namespace HermanosK.Controllers;
-
-public class HomeController : Controller
+namespace HermanosK.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    public class HomeController : Controller
     {
-        _logger = logger;
-    }
+        private readonly ILogger<HomeController> _logger;
+        private readonly IFeatureService _featureService;
+        private readonly IServiceService _serviceService;
 
-public IActionResult Index()
-    {
-        // Datos de ejemplo
-        var features = new List<Feature>
+        public HomeController(
+            ILogger<HomeController> logger,
+            IFeatureService featureService,
+            IServiceService serviceService)
         {
-            new Feature 
-            { 
-                Title = "Miembros de excelencia", 
-                Description = "Nuestro equipo está comprometido con brindar el mejor servicio",
-                IconClass = "fa-star"
-            },
-            new Feature 
-            { 
-                Title = "Buena relación con los clientes", 
-                Description = "Construimos relaciones duraderas con nuestros clientes",
-                IconClass = "fa-users"
-            },
-            new Feature 
-            { 
-                Title = "Excelentes servicios y equipos", 
-                Description = "Contamos con los mejores equipos y servicios",
-                IconClass = "fa-check-circle"
-            }
-        };
+            _logger = logger;
+            _featureService = featureService;
+            _serviceService = serviceService;
+        }
 
-        var services = new List<Service>
+        public async Task<IActionResult> Index()
         {
-            new Service 
-            { 
-                Name = "Playa Blanca", 
-                Description = "Descubre las hermosas playas",
-                ImageUrl = "/images/playa blanca.jpg"
-            },
-            new Service 
-            { 
-                Name = "Guachalito", 
-                Description = "Explora la historia",
-                ImageUrl = "/images/guachalito.jpg"
-            },
-            new Service 
-            { 
-                Name = "Morromico", 
-                Description = "Aventura natural",
-                ImageUrl = "/images/morromico.jpg"
-            }
-        };
+            var viewModel = new HomeViewModel
+            {
+                Features = await _featureService.GetFeaturesAsync(),
+                Services = await _serviceService.GetServicesAsync()
+            };
 
-        var viewModel = new HomeViewModel
+            return View(viewModel);
+        }
+
+        public IActionResult Privacy()
         {
-            Features = features,
-            Services = services
-        };
+            return View();
+        }
 
-        return View(viewModel);
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
     }
 }
