@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HermanosK")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+960a8590ce98cbf1b52b6c4e2d0f81093c6999d4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6aff481b49b23d72e79a92bd81678ad60826265f")]
 [assembly: System.Reflection.AssemblyProductAttribute("HermanosK")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HermanosK")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
